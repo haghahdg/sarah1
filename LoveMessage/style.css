@@ -1,0 +1,32 @@
+body {
+  background-color: #000;
+  color: #ffeb3b;
+  font-family: 'Press Start 2P', monospace;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#text {
+  font-size: 12px;
+  line-height: 2;
+  white-space: pre-line;
+  margin-bottom: 40px;
+}
+
+#next {
+  display: none;
+}
+
+a.button {
+  font-size: 12px;
+  color: black;
+  background-color: #ffeb3b;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+a.button:hover {
+  background-color: #fdd835;
+}
